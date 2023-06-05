@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+body {
+    background-color: #6536b0;
+    font-family: "Merriweather", "serif";
+    height: 100vh;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+h3{
+   text-align: center;
+   margin-top: 25vh;
+}
